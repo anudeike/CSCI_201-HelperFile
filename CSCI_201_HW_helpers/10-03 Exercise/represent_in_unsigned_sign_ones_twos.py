@@ -15,6 +15,6 @@ def binaryToInt(binary_string):
 #main
 def run():
     binary_input = input("Enter the binary number you would like to convert >>")
-    
+
 if __name__ == "__main__":
     run()
