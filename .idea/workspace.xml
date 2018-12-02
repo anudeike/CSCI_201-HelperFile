@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a4f4fa5-1abd-42b4-bf41-fe236c0f6719" name="Default Changelist" comment="" />
+    <list default="true" id="9a4f4fa5-1abd-42b4-bf41-fe236c0f6719" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/subtraction_binary_ numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,36 +22,64 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="438" />
+          <entry key="py" value="2698" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="438" />
+          <entry key="Python" value="2698" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/10-16/help_find_registers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="154">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <marker date="1543708309738" expanded="true" signature="189:210" ph="..." />
                 <marker date="1543708309738" expanded="true" signature="343:358" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1543728396374" expanded="true" signature="990:1163" ph="..." />
+                <marker date="1543728396374" expanded="true" signature="2084:2099" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/subtraction_binary_ numbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1543792940621" expanded="true" signature="144:297" ph="..." />
+                <marker date="1543792940621" expanded="true" signature="326:356" ph="..." />
               </folding>
             </state>
           </provider>
@@ -69,6 +101,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CSCI_201_HW_helpers/10-16/help_find_registers.py" />
+        <option value="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py" />
+        <option value="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/subtraction_binary_ numbers.py" />
       </list>
     </option>
   </component>
@@ -95,6 +129,12 @@
               <item name="CSCI_201-HelperFile" type="462c0819:PsiDirectoryNode" />
               <item name="CSCI_201_HW_helpers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CSCI_201-HelperFile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSCI_201-HelperFile" type="462c0819:PsiDirectoryNode" />
+              <item name="CSCI_201_HW_helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="Mult-Division" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -103,6 +143,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,6 +156,60 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.subtraction_binary_ numbers">
+    <configuration name="BoothAlgorithim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CSCI_201-HelperFile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subtraction_binary_ numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CSCI_201-HelperFile" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/subtraction_binary_ numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.BoothAlgorithim" />
+      <item itemvalue="Python.subtraction_binary_ numbers" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.subtraction_binary_ numbers" />
+        <item itemvalue="Python.BoothAlgorithim" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -134,7 +229,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -142,7 +237,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295129" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -158,11 +253,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/10-16/help_find_registers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="154">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <marker date="1543708309738" expanded="true" signature="189:210" ph="..." />
             <marker date="1543708309738" expanded="true" signature="343:358" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1543728396374" expanded="true" signature="990:1163" ph="..." />
+            <marker date="1543728396374" expanded="true" signature="2084:2099" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/subtraction_binary_ numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1543792940621" expanded="true" signature="144:297" ph="..." />
+            <marker date="1543792940621" expanded="true" signature="326:356" ph="..." />
           </folding>
         </state>
       </provider>
