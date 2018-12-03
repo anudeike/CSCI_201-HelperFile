@@ -264,5 +264,3 @@ if __name__ == "__main__":
         NonOptimizedMultiplication()
     if(choose_multiplication_method == 0):
         BoothAlgo()
-    else:
-        print("Entry not recognized")
