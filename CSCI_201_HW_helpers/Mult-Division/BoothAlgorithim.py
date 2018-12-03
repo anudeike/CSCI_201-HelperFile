@@ -259,5 +259,12 @@ def NonOptimizedMultiplication():
 
 
 if __name__ == "__main__":
-    #BoothAlgo()
-    NonOptimizedMultiplication()
+
+    choose_multiplication_method = int(input("Non-Optimized Booth Algorithim [0] \nNon-Optimized Regular Multiplication [1] \n>> "))
+
+    if(choose_multiplication_method == 0):
+        NonOptimizedMultiplication()
+    if(choose_multiplication_method == 1):
+        BoothAlgo()
+    else:
+        print("Entry not recognized")
