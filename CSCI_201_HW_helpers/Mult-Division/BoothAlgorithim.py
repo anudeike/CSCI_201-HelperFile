@@ -1,6 +1,6 @@
 import numpy as np
 from collections import deque
-
+import subtraction
 #helper to double the length of the multiplicand - could do it with numpy tho
 def double_length(arr):
     toAdd = []
@@ -71,7 +71,7 @@ def multiplication(mp, mc, isSigned=False):
 
         #check the last bit
         curr_last_bit = mp[len(mp)-1]
-        choose_operation = checkLastBit(curr_last_bit,final_bit)
+        choose_operation = checkLastBit(int(curr_last_bit),int(final_bit))
 
         if(choose_operation == 0):
             print("No Operation Needed \n")
@@ -79,7 +79,7 @@ def multiplication(mp, mc, isSigned=False):
             mc = shiftLeft(mc)
             mp = shiftRight(mp)
         if(choose_operation == 1):
-            print(0)
+            print(1)
 
 
     return 0
