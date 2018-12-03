@@ -256,8 +256,6 @@ def NonOptimizedMultiplication():
         multiplication_nonOp(mp, mc)
 
 
-
-
 if __name__ == "__main__":
 
     choose_multiplication_method = int(input("Non-Optimized Booth Algorithim [0] \nNon-Optimized Regular Multiplication [1] \n>> "))

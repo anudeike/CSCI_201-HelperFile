@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a4f4fa5-1abd-42b4-bf41-fe236c0f6719" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CSCI_201_HW_helpers/11-20/unicode_3characters_problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py" beforeDir="false" afterPath="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,24 +22,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5156" />
+          <entry key="py" value="5614" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="5156" />
+          <entry key="Python" value="5614" />
         </counts>
       </usages-collector>
     </session>
@@ -57,19 +59,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="262" column="132" selection-start-line="262" selection-start-column="132" selection-end-line="262" selection-end-column="132" />
+            <state relative-caret-position="113">
+              <caret line="252" column="23" lean-forward="true" selection-start-line="252" selection-start-column="23" selection-end-line="252" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#258#979#0" />
                 <element signature="e#1027#1326#0" />
                 <element signature="e#1361#1804#0" />
-                <marker date="1543802432206" expanded="true" signature="2804:2977" ph="..." />
-                <marker date="1543802432206" expanded="true" signature="4614:6214" ph="..." />
-                <marker date="1543802432206" expanded="true" signature="6781:6786" ph="..." />
+                <marker date="1543802701637" expanded="true" signature="2804:2977" ph="..." />
+                <marker date="1543802701637" expanded="true" signature="4614:6214" ph="..." />
+                <marker date="1543802701637" expanded="true" signature="6781:6784" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/11-20/unicode_3characters_problem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <marker date="1543803980818" expanded="true" signature="287:301" ph="..." />
+                <marker date="1543803980818" expanded="true" signature="507:522" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,6 +122,7 @@
         <option value="$PROJECT_DIR$/CSCI_201_HW_helpers/10-16/help_find_registers.py" />
         <option value="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/subtraction_binary_ numbers.py" />
         <option value="$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py" />
+        <option value="$PROJECT_DIR$/CSCI_201_HW_helpers/11-20/unicode_3characters_problem.py" />
       </list>
     </option>
   </component>
@@ -133,12 +149,6 @@
               <item name="CSCI_201-HelperFile" type="462c0819:PsiDirectoryNode" />
               <item name="CSCI_201_HW_helpers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CSCI_201-HelperFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSCI_201-HelperFile" type="462c0819:PsiDirectoryNode" />
-              <item name="CSCI_201_HW_helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="Mult-Division" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -151,6 +161,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ikechukwu Anude\Documents\GitHub\CSCI_201-HelperFile\CSCI_201_HW_helpers" />
       <recent name="C:\Users\Ikechukwu Anude\Documents\GitHub\CSCI_201-HelperFile\CSCI_201_HW_helpers\Mult-Division" />
       <recent name="C:\Users\Ikechukwu Anude\Documents\GitHub\CSCI_201-HelperFile" />
     </key>
@@ -244,9 +255,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13709678" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25134408" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -254,7 +266,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3295129" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3295129" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -297,16 +309,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/Mult-Division/BoothAlgorithim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="262" column="132" selection-start-line="262" selection-start-column="132" selection-end-line="262" selection-end-column="132" />
+        <state relative-caret-position="113">
+          <caret line="252" column="23" lean-forward="true" selection-start-line="252" selection-start-column="23" selection-end-line="252" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#258#979#0" />
             <element signature="e#1027#1326#0" />
             <element signature="e#1361#1804#0" />
-            <marker date="1543802432206" expanded="true" signature="2804:2977" ph="..." />
-            <marker date="1543802432206" expanded="true" signature="4614:6214" ph="..." />
-            <marker date="1543802432206" expanded="true" signature="6781:6786" ph="..." />
+            <marker date="1543802701637" expanded="true" signature="2804:2977" ph="..." />
+            <marker date="1543802701637" expanded="true" signature="4614:6214" ph="..." />
+            <marker date="1543802701637" expanded="true" signature="6781:6784" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSCI_201_HW_helpers/11-20/unicode_3characters_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1543803980818" expanded="true" signature="287:301" ph="..." />
+            <marker date="1543803980818" expanded="true" signature="507:522" ph="..." />
           </folding>
         </state>
       </provider>
