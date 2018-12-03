@@ -260,9 +260,9 @@ if __name__ == "__main__":
 
     choose_multiplication_method = int(input("Non-Optimized Booth Algorithim [0] \nNon-Optimized Regular Multiplication [1] \n>> "))
 
-    if(choose_multiplication_method == 0):
-        NonOptimizedMultiplication()
     if(choose_multiplication_method == 1):
+        NonOptimizedMultiplication()
+    if(choose_multiplication_method == 0):
         BoothAlgo()
     else:
         print("Entry not recognized")
