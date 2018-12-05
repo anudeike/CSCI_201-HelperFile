@@ -10,8 +10,8 @@ import math
 
 
 def run():
-    decimal = input("Enter the base-10 decimal number")
-    mantissa_limit = int(input("Enter the mantissa limit: "))
+    decimal = input("Enter the base-10 decimal number: >>")
+    mantissa_limit = int(input("Enter the mantissa limit: >> "))
     bias = int(input("Enter the bias: "))
 
     # decide whether the number is negative or positive
@@ -59,6 +59,7 @@ def run():
 Move the decimal place to the right place
 RETURNS: Exponent, 
 """
+
 def moveDecimal(rawBin):
     rawBin_float = float(rawBin)
     rawBin_list = list(rawBin)

@@ -73,7 +73,9 @@ def subtract(bin_a, bin_b):
     return result
 
 #helper to double the length of the multiplicand - could do it with numpy tho
-def double_length(arr, filling_element):
+def double_length(arr, filling_element, toFront=False):
+
+
     toAdd = []
     for x in range(len(arr)):
         toAdd.append(filling_element)
@@ -235,6 +237,62 @@ def multiplication_nonOp(mp, mc, isSigned=False):
 
     return 0
 
+def multiplicationOP(mp,mc, isSigned=False):
+
+    # for testing purposes
+    mp = list(mp)
+    mc = list(mc)
+
+    # check if signed
+    if (isSigned):
+        filling_element = "1"
+    else:
+        filling_element = "0"
+
+    final_bit = 0
+
+    product = fillArray(len(mc), "0") + mp
+    mc = double_length(mc,"0")
+
+    for x in range(10):
+
+        # print out the summary
+        print("\n=== Step " + str(x) + " ===")
+        print("The multiplier is: " + "".join(mp))
+        print("The multiplicand is: " + "".join(mc))
+        print("The Product is: " + "".join(product))
+        print(" ")
+
+        # check the last bit
+        curr_last_bit = mp[len(mp) - 1]
+        # choose_operation = checkLastBit(int(curr_last_bit),int(final_bit))
+
+        # choose the operation (for the non optimized)
+        if int(curr_last_bit) == 1:
+            choose_operation = -1
+        else:
+            choose_operation = 0
+
+        if (choose_operation == 0):
+            print("Last bit of product is 0: No Operation Needed \n")
+            print("shifting...")
+            mc = shiftRight(mc)
+            mp = shiftLeft(mp)
+        if (choose_operation == -1):
+            print("Last bit of product is 1: Product = Product + Mcand")
+            new_product = add_binary_nums("".join(product), "".join(mc))
+            new_product_list = list(new_product)
+            if(len(new_product) > len(product)):
+                carry = new_product_list.pop(0)
+
+            #shift
+            print("shifting...")
+            new_product = shiftRight(new_product_list)
+            product = list(new_product)
+
+        # final_bit = int(curr_last_bit)
+
+    return 0
 def BoothAlgo():
     mc = input("Enter the multiplicand: ")
     mp = input("Enter the multiplier: ")
@@ -255,12 +313,23 @@ def NonOptimizedMultiplication():
     else:
         multiplication_nonOp(mp, mc)
 
+def OptimizedMultiplication():
+    mc = input("Enter the multiplicand: ")
+    mp = input("Enter the multiplier: ")
+    int_signed = int(input("Signed [0] or Unsigned [1]: "))
+
+    if int_signed == 0:
+        multiplicationOP(mp, mc, True)
+    else:
+        multiplicationOP(mp, mc)
 
 if __name__ == "__main__":
 
-    choose_multiplication_method = int(input("Non-Optimized Booth Algorithim [0] \nNon-Optimized Regular Multiplication [1] \n>> "))
+    choose_multiplication_method = int(input("Non-Optimized Booth Algorithim [0] \nNon-Optimized Regular Multiplication [1] \nOptimized Multiplication [2]>> "))
 
     if(choose_multiplication_method == 1):
         NonOptimizedMultiplication()
     if(choose_multiplication_method == 0):
         BoothAlgo()
+    if(choose_multiplication_method == 2):
+        OptimizedMultiplication()
